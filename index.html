@@ -14,16 +14,30 @@
     </head>
     <body>
         <header>
-            <img src="" alt="">
-            <div>
-                <label for="searcher">Search</label>
-                <input type="text" id="searcher" >
-            </div>
+            <nav>
+                <img id="home" src="../../assets/img/logo-pokemon.png" alt="logo-pokemon">
+                <div>
+                    <span></span>
+                    <div>
+                        <input placeholder="Search your pokemon" type="text" id="value" >
+                        <button id="search" >Search</button>
+                    </div>
+                </div>
+            </nav>
+            <section class="dr--dw" id="dropdown">
+            </section>
         </header>
-        <main>
-
+        <main id="main" >
+            <section class="ctr--dnx" id="dnx" ></section>
         </main>
-        <footer></footer>
+        <footer>
+            <section>
+                <div>
+                    <img src="../../assets/img/logo-pokemon.png" alt="logo-pokemon">
+                    <p>By Nicolas Izquierdo</p>
+                </div>
+            </section>
+        </footer>
     </body>
-    <script type="module" src="./source/scripts/view/main.js" ></script>
+    <script type="module" src="./source/scripts/view/main.mjs" ></script>
 </html>
