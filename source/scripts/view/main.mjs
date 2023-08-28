@@ -109,7 +109,7 @@ function loadPokemonDetail() {
         <div class="ctr--mvs" >
             ${movesDetail.map(move => {
                 return `<p>${move}</p>`
-            })}
+            }).join('')}
         </div>
     `;
 
